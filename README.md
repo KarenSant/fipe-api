@@ -6,7 +6,7 @@ Esse é um projeto de API da da tabela fipe com os modelos e marcas dos carros.
 
 
 ### 📜️ Objetivos
-- [x] UtilizEI os verbos HTTP d
+- [x] Utilizei os verbos HTTP 
 - [x] Aplicar os princípios da idempotência
 
 ### 🚀 Tecnologias utilizadas
@@ -14,7 +14,7 @@ Esse é um projeto de API da da tabela fipe com os modelos e marcas dos carros.
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Java 11](https://go.java/?intcmp=gojava-banner-java-com)
-- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=linux)ou [Spring Tool Suite](hhttps://spring.io/tools)
+- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=linux) ou [Spring Tool Suite](https://spring.io/tools)
 - [Postman](https://www.postman.com/downloads/)
 
 
@@ -69,6 +69,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
   
 **Exemplo:**
   - Passar o nome correto do carro. Passar FIAT UNO e não FIT UN
-  - Passar o nome correto da marca. Passar Mercedes e não Mercds
+  - Passar o nome correto da marca. Passar Crevrolet e não ;Chev
   - etc...
   
