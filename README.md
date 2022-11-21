@@ -27,10 +27,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
  
 ▶️ Na pasta src/resources/db/migration você encontrará um arquivo, esse arquivo possibilita criar a primeira versão da sua base de dados
 
-▶️ Realizei a criação da base de dados e configuração no application.yml a conexão e configuração do JPA e FlyWay. 
-  
-- Adicionar um base path para a aplicação. 
-  
 ### 1 - Criei um CRUD para as marcas:
 - Adicionar um endpoint para cadastrar as marcas de carros 
   - **Exemplo de contrato para o endpoint :**
