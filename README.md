@@ -32,39 +32,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ▶️ Realizei a criação da base de dados e configuração no application.yml a conexão e configuração do JPA e FlyWay. 
   
-**Configuração:
-  ``` spel
-  spring:
-    datasource:
-      url: jdbc:mysql://localhost:8080/db_fipe_api
-      username: fipe_user
-      password: fipe_pwd
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      hikari:
-        maximumPoolSize: 4
-    flyway:
-      url: jdbc:mysql://localhost:8080/db_fipe_api
-      username: fipe_user
-      password: fipe_pwd
-      validateOnMigrate: true
-  ```
 - Adicionar um base path para a aplicação. 
   
-**Exemplo**:
-  ``` spel
-  spring:
-    webflux:
-      base-path: /{minha_app}
-  ```
-
-## 📝️ Hora de se exercitar!! 
-
-### Criar o nosso velho e saudoso endpoint "Olá Mundo"
-
-- O retorno da função do endpoint deverá ser `Mono<String>`
-- O HttpStatus retornado devera ser: **202 - ACCEPTED**
-
-### 1 - Agora vamos realizar a criação de um CRUD para as marcas:
+### 1 - Criei um CRUD para as marcas:
 - Adicionar um endpoint para cadastrar as marcas de carros 
   - **Exemplo de contrato para o endpoint :**
     
@@ -79,8 +49,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - Criar um endpoint de manipulaçao para as marcas.
 
-### 2 - Agora vamos realizar a criaçao de um CRUD para os carros:
-- Criar um endpoint para criaçao de carros.
+### 2 -CRUD para os carros:
+- Criei um endpoint para criaçao de carros.
 
 **Exemplo de informações que serão recebidas:**
 ``` json
@@ -93,10 +63,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 }
 ```
 ⚠️ Utilizei o valor em centavos.
-  
 
-
-- [x] Possibilitar que os carros sejam consultados por marca, nome e categoria.
+- [x] É Possível que os carros sejam consultados por marca, nome e categoria.
 
 ### Realizei a integração com uma API real da tabela FIPE utilizando WebClient.
 
@@ -104,7 +72,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### 5 - Sempre que realizar uma busca, seja de carro ou marca, na base e esse resultado não for encontrado, deve realizar a chamada da API Fipe e receber os resultados e salvar na base de dados local
 
-- Como essa API não reconhece trechos de palavras e não faremos tratativa para completar os textos, deve-se passar parâmetros completos.
+- Como essa API não reconhece trechos de palavras e não fIZ tratativa para completar os textos, por isso deve-se passar parâmetros completos.
   
 **Exemplo:**
   - Passar o nome correto do carro. Passar FIAT UNO e não FIT UN
