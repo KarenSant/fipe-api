@@ -14,10 +14,7 @@ Esse é um projeto de API da da tabela fipe com os modelos e marcas dos carros.
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Java 11](https://go.java/?intcmp=gojava-banner-java-com)
-- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=linux)
-- [Mysql Workbench](https://dev.mysql.com/downloads/workbench/) ou [Spring Tool Suite](hhttps://spring.io/tools)
-- [Docker](https://www.docker.com/get-started)
-- Uma conta [AWS](https://aws.amazon.com/pt/)
+- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=linux)ou [Spring Tool Suite](hhttps://spring.io/tools)
 - [Postman](https://www.postman.com/downloads/)
 
 
